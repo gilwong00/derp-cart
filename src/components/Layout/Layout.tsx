@@ -3,12 +3,13 @@ import styles from './Layout.module.scss';
 import {Header} from '../Header/index';
 import {Footer} from '../Footer/index';
 
-const Layout = () => {
+
+const Layout = (props: { children: React.ReactNode; }) => {
   return (
     <>
     <Header />
     <div className={styles.container}>
-      <h1>Hello</h1>
+      <main>{props.children}</main>
     </div>
     <Footer />
     </>
