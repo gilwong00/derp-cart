@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import styles from './Layout.module.scss';
 import {Header} from '../Header/index';
 import {Footer} from '../Footer/index';
