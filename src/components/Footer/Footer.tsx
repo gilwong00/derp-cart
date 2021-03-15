@@ -1,16 +1,16 @@
 import React from 'react'
-import styles from './Header.module.scss';
+import styles from './Footer.module.scss';
 
 interface Props {
 
 }
 
-const Header = (props: Props) => {
+const Footer = (props: Props) => {
   return (
     <div className={styles.container}>
-      Header
+      Footer
     </div>
   )
 }
 
-export default Header
+export default Footer;
